@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-04-26T07:38:00.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="gSNYJbryo0Nh2Fa8sqgG" version="21.2.1" type="github">
+  <diagram name="第 1 页" id="GImtuZnkWdDPbxU9h3aQ">
+    <mxGraphModel dx="1329" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-2" target="vS6fgkME8l6c8sELjjFZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-2" value="等待信号量释放" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-5" value="按键任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="560" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-6" value="指纹任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="560" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-7" target="vS6fgkME8l6c8sELjjFZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-7" target="vS6fgkME8l6c8sELjjFZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-7" value="读值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-8" target="vS6fgkME8l6c8sELjjFZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="231" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-8" value="1分钟定时器开启" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-9" value="唤醒键盘任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-10" value="唤醒指纹任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-11" target="vS6fgkME8l6c8sELjjFZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-11" target="vS6fgkME8l6c8sELjjFZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-11" target="vS6fgkME8l6c8sELjjFZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-11" value="扫描任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-12" target="vS6fgkME8l6c8sELjjFZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-12" target="vS6fgkME8l6c8sELjjFZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-12" value="按键外部中断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="121" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-20" value="指纹按键" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="281" y="500" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-21" value="键盘按键" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-26" value="开启或复位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="276" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.489;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vS6fgkME8l6c8sELjjFZ-11" target="vS6fgkME8l6c8sELjjFZ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="sourcePoint" />
+            <mxPoint x="310" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="480" />
+              <mxPoint x="340" y="470" />
+              <mxPoint x="230" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-30" value="将任务拉起" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="308" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-34" value="队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="558" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vS6fgkME8l6c8sELjjFZ-35" value="队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="558" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
